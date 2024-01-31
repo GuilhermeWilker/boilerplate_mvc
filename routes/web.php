@@ -2,7 +2,10 @@
 
 namespace routes;
 use app\controllers\HomeController;
+use core\library\Router;
 
-return [
-  ['GET', '/', [HomeController::class, 'index']]
-];
+$router = new Router;
+
+$router->add('GET', '/', [HomeController::class, 'index']);
+
+$router->run();
