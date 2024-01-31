@@ -1,0 +1,21 @@
+{
+    "name": "guiga/mvc",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/",
+            "routes\\": "routes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guilherme Wilker",
+            "email": "wilkerguilherme0@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^7.0",
+        "nikic/fast-route": "^1.3",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
